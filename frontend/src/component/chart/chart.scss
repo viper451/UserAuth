@@ -1,0 +1,54 @@
+
+$small: 300px;
+$medium: 900px;
+
+.chart {
+  flex: 4;
+  width: auto;
+  height: auto;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: gray;
+
+  .title {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .chartGrid {
+    width: auto;
+    height: auto;
+    stroke: rgb(228, 225, 225);
+  }
+}
+
+ @media screen and (min-width: $small) and (max-width: $medium) {
+  .chart {
+    flex: 0;
+    width: 60%;
+    height: 60%;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    color: gray;
+  
+    .title {
+      width: auto;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .chartGrid {
+      width: auto;
+      height: auto;
+      stroke: rgb(228, 225, 225);
+    }
+  }
+  
+
+ }
+
+
+
